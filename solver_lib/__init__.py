@@ -1,6 +1,6 @@
 from pathlib import Path
-from database import ProblemDatabase
-from finder import ProblemFinder
+from .database import ProblemDatabase
+from .finder import ProblemFinder
 
 class Solver:
     def __init__(self, db_path: str = None):
