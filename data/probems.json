@@ -1,0 +1,8 @@
+[
+    {
+        "id": 1,
+        "title": "Убедиться в отсутствии пропущенных значений",
+        "keywords": ["отсутствии", "пропущенных"],
+        "solution": "from sklearn.datasets import load_iris\n import pandas as pd\n import matplotlib.pyplot as plt\n import seaborn as sns"
+    }
+]
