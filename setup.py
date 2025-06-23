@@ -23,7 +23,7 @@ setup(
     ],
     package_data={
         # указываем, что problems.json лежит рядом с кодом
-        "solver_lib": ["../data/problems.json"],
+        "solver_lib": ["data/problems.json"],
     },
     classifiers=[
         "Programming Language :: Python :: 3",
