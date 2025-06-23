@@ -16,7 +16,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/angryissues/ML-solver",  # ваш репо
     # найдёт папку solver_lib как пакет
-    packages=find_packages(include=["solver_lib", "solver_lib.*"]),
+    packages=find_packages(),
     include_package_data=True,      # чтоб брать файлы, указанные в MANIFEST.in
     install_requires=[
         # здесь ваши зависимости, если есть

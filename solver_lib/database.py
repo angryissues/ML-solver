@@ -2,8 +2,11 @@ import json
 from pathlib import Path
 
 class ProblemDatabase:
-    def __init__(self, path: str):
-        self.path = Path(path)
+    def __init__(self, db_path: Path = None):
+        if db_path is None:
+        # __file__ == .../solver_lib/database.py
+            db_path = Path(__file__).parent / "data" / "problems.json"
+        self.path = db_path
         self._load()
 
     def _load(self):
